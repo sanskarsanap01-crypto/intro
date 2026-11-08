@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            height: 100vh;
+
+            display: flex;
+            gap: 10px;
+
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .product{
+            border: 1px solid black;
+            border-radius: 15px;
+            padding:20px;
+            margin-bottom:20px;
+            text-align: center;
+            margin: auto;
+            background-color: bisque;
+            
+
+            /* box-shadow: 4px 0 0 black; */
+            /* box-shadow: 4px 4px 0 black; */
+            box-shadow: 4px 4px 8px black;
+            width: 500px;
+        }
+        .product img{
+           
+            object-fit:cover ;
+            border-radius: 15px;
+
+        }
+
+        .product:hover{
+            background-color: orangered;
+            color: white;
+            transition: 1s;
+        }
+
+        .product button{
+            background-color: rgb(176, 50, 4)
+            color:white;
+            border-radius:20px;
+            padding: 12px;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/3081173/pexels-photo-3081173.jpeg" alt="headphones" height="200" width="300">
+        <h2>headphones</h2>
+        <p>Rs 2,499</p>
+        <button>Buy now</button>
+
+    </div>
+
+    <div class="product">
+        <img src="https://images.pexels.com/photos/18533790/pexels-photo-18533790.jpeg" alt="mobile"  height="200" width="300">
+        <h2>mobile</h2>
+        <p>Rs 26,499</p>
+        <button>Buy now</button>
+
+    </div>
+
+    <div class="product">
+        <img src="https://images.pexels.com/photos/4917455/pexels-photo-4917455.jpeg" alt="speakers"  height="200" width="300">
+        <h2>speakers</h2>
+        <p>Rs 30,499</p>
+        <button>Buy now</button> 
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product{
+            background-color:aqua ;
+            height: 600px;
+
+            display: flex; 
+            flex-direction: row;
+            justify-content: center;
+            /* justify-content move the content left to right  */
+            gap: 20px;
+            /* gap give precise distance between content */
+            align-items: center;
+            /* move content in Y axis */
+            flex-wrap: wrap;
+            /* content adjust itself on screen  */
+            
+        }
+
+
+        .box{
+            background-color: brown;
+            height: 150px;
+            width: 200px;
+
+
+            border: 1px solid black;
+            border-radius: 50%;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="product"> <!-- parent tag -->
+      <div class="box">cookies</div> <!-- child tag -->
+    <div class="box">cake</div> <!-- child tag -->
+    <div class="box">pastry</div> <!-- child tag -->
+   </div> 
+</body>
+</html>
